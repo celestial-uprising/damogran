@@ -1,4 +1,4 @@
-# Celestial Uprising's Bleeding-Edge Release Track &nbsp; [![bluebuild build badge](https://github.com/celestial-uprising/damogran/actions/workflows/build.yml/badge.svg)](https://github.com/celestial-uprising/damogran/actions/workflows/build.yml)
+# Celestial Uprising's Bleeding-Edge Experimental Track &nbsp; [![bluebuild build badge](https://github.com/celestial-uprising/damogran/actions/workflows/build.yml/badge.svg)](https://github.com/celestial-uprising/damogran/actions/workflows/build.yml)
 
 ## *Fedora-Bootc Rawhide* + *AOCC v6* + *Lesbidoodle Rabbit Coven Magic* = *Damogran*
 
