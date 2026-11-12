@@ -42,6 +42,8 @@ modules:
     install:
       install-weak-deps: false
       packages:
+        - libquadmath
+        - libquadmath-devel
         - firewalld
         - nftables
         - zram-generator-defaults
