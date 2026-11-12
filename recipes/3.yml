@@ -25,9 +25,14 @@ modules:
       - amdgpu.ppfeaturemask=0xffffffff
       - amdgpu.sg_display=0
   - type: dnf
+    repos:
+      copr:
+        - name: archjun/mgba
+          chroot: fedora-44-x86_64
     install:
       install-weak-deps: false
       packages:
+        - mgba-qt
         - nautilus
         - glibc
         - gtk4 

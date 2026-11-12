@@ -18,12 +18,13 @@ stages:
             bash /tmp/binstall.sh
             bash /tmp/golang.sh
             bash /tmp/tidemail.sh
+            bash /tmp/corgi.sh
 modules:
   - type: os-release
     properties:
       NAME: "Damogran"
-      PRETTY_NAME: "Damogran a01 by Celestial Uprising"
-      VERSION_CODENAME: "strawbolotl"
+      PRETTY_NAME: "Damogran a02 by Celestial Uprising"
+      VERSION_CODENAME: "raspolotl"
       ID_LIKE: fedora
       HOME_URL: "https://github.com/celestial-uprising/damogran/"
       BUG_REPORT_URL: "https://github.com/celestial-uprising/damogran/"
@@ -42,6 +43,7 @@ modules:
     install:
       install-weak-deps: false
       packages:
+        - rustup
         - libquadmath
         - libquadmath-devel
         - firewalld
