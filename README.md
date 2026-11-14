@@ -9,7 +9,7 @@
    - Recompiling keystones of the OS using AOCC and optimization lessons from [Aggrollama](https://github/com/celestial-uprising/aggrollama)
    - Collect research in preparation for creation of fully AOCC compiled immutable linux OS
    - Collect research regarding aggressive optflag usage with AOCC, especially work-arounds that do NOT require adjusting source code
-   - Promote independent research, development, and education of higher level concepts without demanding profit or finacial analysis
+   - Promote independent research, development, and education of higher level concepts without demanding profit or financial analysis
 
 ## *Images*
 
