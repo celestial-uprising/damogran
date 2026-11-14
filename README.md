@@ -2,6 +2,25 @@
 
 ## *Fedora-Bootc Rawhide* + *AOCC v6* + *Lesbidoodle Rabbit Coven Magic* = *Damogran*
 
+## *Interogatives*
+
+    - Tracking the progress and development of Celestial Uprising's [Oglaroon](https://github.com/celestial-uprising/oglaroon) Immutable OS 
+    - Incorporating the AOCC v6 compiler & its dependencies, all configured OOTB
+    - Recompiling keystones of the OS using AOCC and optimization lessons from [Aggrollama](https://github/com/celestial-uprising/aggrollama)
+    - Collect research in preparation for creation of fully AOCC compiled immutable linux OS
+    - Collect research regarding aggressive optflag usage with AOCC, especially work-arounds that do NOT require adjusting source code
+    - Promote independent research, development, and education of higher level concepts without demanding profit or finacial analysis
+
+## *Images*
+
+- *damogran*  -- gracefully unstoppable
+- *damogran-dev*  -- classically elegant
+- *damogran-headless*  -- reliably deployable 
+
+## *Installation*
+
+    sudo bootc switch ghcr.io/celestial-uprising/${IMAGE}:latest
+
 <details>
     <summary>Celestial Uprising's Pre-installed Tools and Desktop Environment:</summary>
 
@@ -26,16 +45,6 @@
 - *Rofi* | launcher, preconfigured for Celestial Uprising and assigned to `CapsLock+d`
 
 </details>
-
-## Images
-
-- *damogran*  -- gracefully unstoppable
-- *damogran-dev*  -- classically elegant
-- *damogran-headless*  -- reliably deployable 
-
-## Installation
-
-    sudo bootc switch ghcr.io/celestial-uprising/${IMAGE}:latest
 
 ## *Celestial-Uprising is proudly built for all, by lesbidoodles and their coven of magical rabbits*
 
