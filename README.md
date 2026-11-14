@@ -40,11 +40,11 @@
 ## *Celestial-Uprising is proudly built for all, by lesbidoodles and their coven of magical rabbits*
 
 <details>
-    <summary>Celestial Uprising's Personal Machines:</summary>
+    <summary>Dog-fooding:</summary>
 
-*Testing and development is performed on a small array of ryzen based machines; by a coven of elusive rabbits with whom gaia has bestowed the privilege of magic.*
+- *Testing and development is performed on a small array of ryzen based machines; by a coven of elusive rabbits with whom gaia has bestowed the privilege of magic.*
 
-- *Dog-fooding Lalamatine & Oglaroon*
+- *BootC Testing and Development*
 
 
 | hostid | spin | cpu | memory | gpus |
@@ -54,7 +54,7 @@
 |rhiannon|*oglaroon-dev*|AMD A4-9120*c* R4 2C+3G *2c/2t*|4GiB *1866MHz*|Radeon iGPU|
 |lily|*oglaroon-virt*|AMD EPYC Virtualized *6c/6t*|12GiB *virtualized*|---|
 
-- *assigned to testing and development of Ubuntu 27.04 Tenacious T-Rex*
+- *Ubuntu 27.04 Tenacious T-Rex testing*
 
 | hostid | os | cpu | memory | gpus |
 | :--- | :--- | :--- | :--- | :--- |
