@@ -2,6 +2,9 @@
 
 ## *Fedora-Bootc Rawhide* + *AOCC v6* + *Lesbidoodle Rabbit Coven Magic* = *Damogran*
 
+<details>
+    <summary>Celestial Uprising's Pre-installed Tools and Desktop Environment:</summary>
+
 - *Yazi* | rapid & beautiful rusty file-manager 
 - *Flyline* | bash plugin, cause thinking shouldn't require spelling degrees
 - *Corgi* | modern-day herdr & t-mux replacement with intense QoL improvements
@@ -22,6 +25,8 @@
 - *Ironbar* | modern, niri-native top-bar rebuilt by the Celestial Uprising team
 - *Rofi* | launcher, preconfigured for Celestial Uprising and assigned to `CapsLock+d`
 
+</details>
+
 ## Images
 
 - *damogran*  -- gracefully unstoppable
@@ -34,7 +39,8 @@
 
 ## *Celestial-Uprising is proudly built for all, by lesbidoodles and their coven of magical rabbits*
 
-### *Personal Machines*
+<details>
+    <summary>Celestial Uprising's Personal Machines:</summary>
 
 *Testing and development is performed on a small array of ryzen based machines; by a coven of elusive rabbits with whom gaia has bestowed the privilege of magic.*
 
@@ -54,3 +60,4 @@
 | :--- | :--- | :--- | :--- | :--- |
 |ada|*Ubuntu 27.04 Tenacious T-Rex*|AMD Ryzen 5 5600*x* *6c/12t*|64GiB *3200MHz*|*GP*100 *16GB* + *RTX*3070 *8GiB*|
 
+</details>
