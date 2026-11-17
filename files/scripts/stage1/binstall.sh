@@ -19,7 +19,22 @@ cargo binstall --root /tmp --no-confirm \
 	doxx \
 	xleak \
 	serie \
-	zellij \
-	rmux \
 	croft-software \
-	upmd
+	upmd \
+	herdr \
+	llmfit \
+	splashboard \
+	xfr \
+	eilmeldung \
+	swaptop \
+	gfold \
+	lla \
+	reknife \
+	bookokrat \
+	edamame \
+	elio \
+	termscp \
+	zizmor \
+	llamastash \
+	papr-tui \
+	rura

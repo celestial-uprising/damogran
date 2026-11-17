@@ -16,6 +16,8 @@ stages:
           - dnf5 upgrade -y
           - |
             bash /tmp/ironbar.sh
+            bash /tmp/rhun.sh
+            bash /tmp/solipsist.sh
 modules:
   - type: os-release
     properties:
@@ -32,6 +34,8 @@ modules:
     install:
       install-weak-deps: false
       packages:
+        - loupe
+        - clapper
         - mgba-qt
         - nautilus
         - glibc
@@ -78,12 +82,8 @@ modules:
         - kitty
         - zathura
         - zathura-plugins-all
-        - mpv
         - ffmpeg
         - ffmpegthumbnailer
-        - mpd
-        - mpc
-        - imv
         - remmina
         - virt-manager
         - headsetcontrol
@@ -99,10 +99,13 @@ modules:
     from: builder
     src: /tmp/bin/
     dest: /usr/bin/
+  - type: copy
+    from: builder
+    src: /tmp/rhun/share/
+    dest: /usr/share/
   - type: script
     scripts:
-      - rhun.sh
-      - zen.sh
+      - twilight.sh
       - annoyances-2.sh
   - type: files
     files:
