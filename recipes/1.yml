@@ -21,12 +21,13 @@ stages:
             bash /tmp/golang.sh
             bash /tmp/tidemail.sh
             bash /tmp/corgi.sh
+            bash /tmp/pi-bolt.sh
 modules:
   - type: os-release
     properties:
       NAME: "Damogran"
-      PRETTY_NAME: "Damogran a03 by Celestial Uprising"
-      VERSION_CODENAME: "raspolotl"
+      PRETTY_NAME: "Damogran a04 by Celestial Uprising"
+      VERSION_CODENAME: "birbs"
       ID_LIKE: fedora
       HOME_URL: "https://github.com/celestial-uprising/damogran/"
       BUG_REPORT_URL: "https://github.com/celestial-uprising/damogran/"
@@ -123,10 +124,15 @@ modules:
     from: builder
     src: /tmp/bin/
     dest: /usr/bin/
+  - type: copy
+    from: builder
+    src: /tmp/skel/
+    dest: /etc/skel/
   - type: fonts
     fonts:
       nerd-fonts:
         - VictorMono
+        - JetBrainsMono
   - type: files
     files:
       - source: extras/aoccv6/
@@ -161,7 +167,6 @@ modules:
         - podman.socket
   - type: script
     scripts:
-      - pi-bolt.sh
       - annoyances.sh
       - regenerateinitramfs.sh
   - type: signing
